@@ -1,0 +1,227 @@
+SDDS1
+&description
+        text="Statistics data of monitors",
+        contents="stat parameters"
+&end
+&parameter
+        name=processors,
+        type=long,
+        description="Number of Cores used"
+&end
+&parameter
+        name=revision,
+        type=string,
+        description="git revision of opal"
+&end
+&parameter
+        name=flavor,
+        type=string,
+        description="OPAL flavor that wrote file"
+&end
+&column
+        name=name,
+        type=string,
+        description="1 Monitor name"
+&end
+&column
+        name=s,
+        type=double,
+        units=m,
+        description="2 Longitudinal Position"
+&end
+&column
+        name=t,
+        type=double,
+        units=ns,
+        description="3 Passage Time Reference Particle"
+&end
+&column
+        name=numParticles,
+        type=long,
+        units=1,
+        description="4 Number of Macro Particles"
+&end
+&column
+        name=rms_x,
+        type=double,
+        units=m,
+        description="5 RMS Beamsize in x"
+&end
+&column
+        name=rms_y,
+        type=double,
+        units=m,
+        description="6 RMS Beamsize in y"
+&end
+&column
+        name=rms_s,
+        type=double,
+        units=m,
+        description="7 RMS Beamsize in s"
+&end
+&column
+        name=rms_t,
+        type=double,
+        units=ns,
+        description="8 RMS Passage Time"
+&end
+&column
+        name=rms_px,
+        type=double,
+        units=1,
+        description="9 RMS Momenta in x"
+&end
+&column
+        name=rms_py,
+        type=double,
+        units=1,
+        description="10 RMS Momenta in y"
+&end
+&column
+        name=rms_ps,
+        type=double,
+        units=1,
+        description="11 RMS Momenta in s"
+&end
+&column
+        name=emit_x,
+        type=double,
+        units=m,
+        description="12 Normalized Emittance x"
+&end
+&column
+        name=emit_y,
+        type=double,
+        units=m,
+        description="13 Normalized Emittance y"
+&end
+&column
+        name=emit_s,
+        type=double,
+        units=m,
+        description="14 Normalized Emittance s"
+&end
+&column
+        name=mean_x,
+        type=double,
+        units=m,
+        description="15 Mean Beam Position in x"
+&end
+&column
+        name=mean_y,
+        type=double,
+        units=m,
+        description="16 Mean Beam Position in y"
+&end
+&column
+        name=mean_s,
+        type=double,
+        units=m,
+        description="17 Mean Beam Position in s"
+&end
+&column
+        name=mean_t,
+        type=double,
+        units=ns,
+        description="18 Mean Passage Time"
+&end
+&column
+        name=ref_x,
+        type=double,
+        units=m,
+        description="19 x coordinate of reference particle in lab cs"
+&end
+&column
+        name=ref_y,
+        type=double,
+        units=m,
+        description="20 y coordinate of reference particle in lab cs"
+&end
+&column
+        name=ref_z,
+        type=double,
+        units=m,
+        description="21 z coordinate of reference particle in lab cs"
+&end
+&column
+        name=ref_px,
+        type=double,
+        units=1,
+        description="22 x momentum of reference particle in lab cs"
+&end
+&column
+        name=ref_py,
+        type=double,
+        units=1,
+        description="23 y momentum of reference particle in lab cs"
+&end
+&column
+        name=ref_pz,
+        type=double,
+        units=1,
+        description="24 z momentum of reference particle in lab cs"
+&end
+&column
+        name=min_x,
+        type=double,
+        units=m,
+        description="25 Min Beamsize in x"
+&end
+&column
+        name=min_y,
+        type=double,
+        units=m,
+        description="26 Min Beamsize in y"
+&end
+&column
+        name=min_s,
+        type=double,
+        units=m,
+        description="27 Min Beamsize in s"
+&end
+&column
+        name=max_x,
+        type=double,
+        units=m,
+        description="28 Max Beamsize in x"
+&end
+&column
+        name=max_y,
+        type=double,
+        units=m,
+        description="29 Max Beamsize in y"
+&end
+&column
+        name=max_s,
+        type=double,
+        units=m,
+        description="30 Max Beamsize in s"
+&end
+&column
+        name=xpx,
+        type=double,
+        units=1,
+        description="31 Correlation xpx"
+&end
+&column
+        name=ypy,
+        type=double,
+        units=1,
+        description="32 Correlation ypy"
+&end
+&column
+        name=zpz,
+        type=double,
+        units=1,
+        description="33 Correlation zpz"
+&end
+&data
+        mode=ascii,
+        no_row_counts=1
+&end
+1
+OPAL 2022.1.0 git rev. #a4e0e14466557289b4f7a843fb9eb72700ff1992
+opal-t
+LPOP1f1dot06_1dot81_0dot89_0dot206         	7.575600000000000e-01         	2.561587205036884e-09         	20000         	2.061211751155619e-04         	2.071946636587627e-04         	2.156593922674131e-20         	1.351931378107989e-03         	5.462809520986688e-02         	5.499696279205236e-02         	4.001995909052228e-02         	2.116316035137714e-06         	2.120009939943493e-06         	8.630075579749345e-22         	6.550113000168270e-08         	-2.257700086504981e-06         	2.381803708119889e-22         	2.570497806463331e+00         	0.000000000000000e+00         	0.000000000000000e+00         	7.575600000000000e-01         	0.000000000000000e+00         	0.000000000000000e+00         	1.020715255122306e+01         	-4.556428799276306e-04         	-4.550107704285162e-04         	-1.084202172485504e-19         	4.498988959618716e-04         	4.547980277630703e-04         	2.168404344971009e-19         	-9.821786368857611e-01         	-9.825410118576190e-01         	-1.183517043047107e-02         	
+HPOP1f1dot06_1dot81_0dot89_0dot206         	7.049560000000000e+00         	2.358537188322213e-08         	20000         	1.866300800047093e-03         	1.878130192372791e-03         	7.594456312366293e-20         	2.128014606542893e-04         	2.252588517642135e-02         	2.255972101263101e-02         	1.244924480310424e+00         	1.706470980473207e-05         	1.710830623238937e-05         	9.453427402439043e-20         	3.337277447402187e-06         	-1.965939548758152e-05         	1.322726650432315e-21         	2.358459216344084e+01         	0.000000000000000e+00         	0.000000000000000e+00         	7.049560000000000e+00         	0.000000000000000e+00         	0.000000000000000e+00         	8.986214987321668e+01         	-4.472366983913412e-03         	-4.510173469256164e-03         	-2.168404344971009e-19         	4.483888013878303e-03         	4.434668667511665e-03         	2.168404344971009e-19         	-9.139107101633698e-01         	-9.148549692497376e-01         	1.523423306876428e-02         	
+HPOP2f1dot06_1dot81_0dot89_0dot206         	8.189559999999998e+00         	2.738820188812778e-08         	20000         	1.224412560034781e-02         	5.574090893772534e-03         	4.729912601954796e-21         	1.007099797901575e-03         	4.333649285954191e+00         	1.134465467220713e+00         	1.303740352141054e+00         	8.644096065325682e-04         	2.482714116855694e-04         	6.166342665555502e-21         	-2.080908675324986e-05         	5.954120275722546e-05         	3.607582805527520e-23         	2.738862468611803e+01         	0.000000000000000e+00         	0.000000000000000e+00         	8.189560000000000e+00         	0.000000000000000e+00         	0.000000000000000e+00         	1.059846118856207e+02         	-3.022082464021333e-02         	-1.380873229950410e-02         	-1.084202172485504e-19         	3.006916040966656e-02         	1.410872360875292e-02         	1.084202172485504e-19         	9.998672987801811e-01         	-9.992289896057319e-01         	8.734918026213566e-03         	
